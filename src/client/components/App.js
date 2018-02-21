@@ -5,7 +5,7 @@ import Skills from './Skills';
 import Resume from './Resume';
 
 
-import './App.css';
+import '../styles/App.css';
 import Home from './Home';
 
 class App extends Component {
