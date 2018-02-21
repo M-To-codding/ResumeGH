@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import './App.css';
+import {Link} from 'react-router-dom';
+
 
 class Home extends Component {
   render() {
@@ -50,14 +51,14 @@ class Home extends Component {
           <nav className="content-menu">
             <ul>
               <li>
-                <a>
+                <Link to="/skills">
                   Skills
-                </a>
+                </Link>
               </li>
               <li>
-                <a>
+                <Link to="/resume">
                   Resume
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
