@@ -130,6 +130,8 @@ input, textarea {
 .header-caption .title {
     font-size: 34px;
     font-family: 'segoe-ui-light';
+    background: none;
+    text-align: left;
 }
 
 .header-caption .subtitle {
@@ -154,7 +156,7 @@ input, textarea {
     transform: rotate(45deg);
 }
 
-.photo-content .photo img{
+.photo-content .photo img {
     position: absolute;
     top: -82px;
     left: -72px;
@@ -163,4 +165,91 @@ input, textarea {
     object-fit: cover;
 }
 
-/*---------header-----------*/
+/*---------content-----------*/
+
+.main-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    background-color: #0e5d98;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    height: 80px;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.content-menu {
+    background-image: linear-gradient(to right bottom, #1477c5 0%,
+    #1477c5 50%, transparent 50%);
+    width: 19%;
+    min-height: 330px;
+    height: 100%;
+    padding-right: 12%;
+    vertical-align: text-bottom;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-align: right;
+    font-family: segoe-ui;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.content-menu ul {
+    margin-left: auto;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+/*-----skills------*/
+
+.skills {
+    display: flex;
+}
+
+.skill-item {
+    background-image: url("../images/border-for-skill.png");
+    height: 208px;
+    width: 194px;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.skill-item p {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 45px;
+    position: relative;
+    transition: 0.5s;
+}
+.skill-item p:before {
+    content: '';
+    left: 0;
+    height: 50px;
+    width: 50px;
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.skill-item:hover p:before {
+    content: '';
+    display: block;
+    box-shadow: 0 0 9px rgba(171, 171, 171, 0.85);
+    position: absolute;
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
