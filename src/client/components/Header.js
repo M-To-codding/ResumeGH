@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import images from './../data/images';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 class Header extends Component {
   render() {
@@ -9,7 +11,7 @@ class Header extends Component {
 
           <nav className="nav-menu -header">
             <div className="logo">
-              <a href="#">
+              <a href="/">
                 <img src={images.logo} alt=""/>
               </a>
             </div>
@@ -17,15 +19,15 @@ class Header extends Component {
             <ul className="menu-content">
 
               <li className="nav-item">
-                <a href="#" id="content-anchor" className="anchor">
+                <AnchorLink href="#content" id="content-anchor" className="anchor">
                   About
-                </a>
+                </AnchorLink>
               </li>
 
               <li className="nav-item">
-                <a href="#" id="contact-anchor" className="anchor">
+                <AnchorLink href="#contact" id="contact-anchor" className="anchor">
                   Contact me
-                </a>
+                </AnchorLink>
               </li>
 
             </ul>

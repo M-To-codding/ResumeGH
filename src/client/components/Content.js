@@ -10,7 +10,7 @@ import Greeting from './Greeting';
 class Content extends Component {
   render() {
     return (
-        <main className="main-info">
+        <main className="main-info" id="content">
 
           <Route component={Title} />
 

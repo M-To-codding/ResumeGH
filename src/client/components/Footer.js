@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
 
     return (
-      <footer className="contacts">
+      <footer className="contacts"  id="contact">
         <div className="container contacts-content">
           <h5>If you want to contact me, fill and send contact form below</h5>
           <form className="contact-form">
@@ -27,7 +27,7 @@ class Footer extends Component {
           </form>
         </div>
         <div className="copyright">
-          ©copyright 2018
+          ©Copyright 2018
         </div>
       </footer>
     );
