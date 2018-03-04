@@ -1,0 +1,32 @@
+{
+  "skills": [
+    {
+      "name": "js",
+      "description": ""
+    },
+    {
+      "name": "Css3/html5",
+      "description": ""
+    },
+    {
+      "name": "Php",
+      "description": ""
+    },
+    {
+      "name": "VCS",
+      "description": ""
+    },
+    {
+      "name": "Java",
+      "description": ""
+    },
+    {
+      "name": "Db",
+      "description": ""
+    },
+    {
+      "name": "Design/Illustrator",
+      "description": ""
+    }
+  ]
+}
