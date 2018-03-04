@@ -35,6 +35,7 @@ ul {
     display: inherit;
     width: inherit;
     justify-content: inherit;
+    flex-wrap: inherit;
 }
 
 textarea {
@@ -70,7 +71,8 @@ p {
 }
 
 input, textarea {
-    border-style: solid;
+    border: none;
+    box-shadow: 0 0 11px black;
 }
 
 /*---------common-----------*/
@@ -204,15 +206,25 @@ input, textarea {
     margin-left: auto;
 }
 
+.content-menu li {
+    text-align: left;
+}
+
 .content {
     display: inline-block;
     vertical-align: text-bottom;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
-/*-----skills------*/
+/*-----skills.json------*/
 
 .skills {
     display: flex;
+    max-width: 845px;
+    justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
 }
 
 .skill-item {
@@ -228,28 +240,113 @@ input, textarea {
     transition: 0.5s;
 }
 
-.skill-item p {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    line-height: 45px;
+.skill-item div p {
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    z-index: 2;
+}
+
+.skill-item div {
+    height: 70px;
+    width: 70px;
+    font-family: "segoe-ui";
+    font-size: 20px;
+    color: #0e5d98;
+    text-align: center;
+    position: relative;
+    word-break: break-word;
     transition: 0.5s;
 }
-.skill-item p:before {
+.skill-item div:before {
     content: '';
     left: 0;
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     transform: rotate(0deg);
+    z-index: 1;
     transition: 0.5s;
 }
 
-.skill-item:hover p:before {
+.skill-item:hover div:before {
     content: '';
     display: block;
     box-shadow: 0 0 9px rgba(171, 171, 171, 0.85);
     position: absolute;
     transform: rotate(45deg);
+    background-color: rgba(212, 227, 243, 0.35);
     transition: 0.5s;
+}
+
+/*------------footer-----------*/
+
+.contacts {
+    background-color: #0e5d98;
+}
+
+.contacts .contacts-content {
+    padding: 35px 0;
+}
+
+.contacts h5 {
+    background-color: #0e5d98;
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 30px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 331px;
+    height: 40px;
+    padding: 0 10px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #0e5d98;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+    color: #82a6c5;
+    font-size: 15px;
+}
+
+.contact-form .inputs input {
+    display: block;
+}
+
+.contact-form textarea {
+    height:88px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form .btn {
+    width: 238px;
+    height: 53px;
+    margin:auto;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}
+
+.copyright {
+    background-color: #313333;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
 }
