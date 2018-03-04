@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import Skills from './Skills';
 import Resume from './Resume';
 import Title from './Title';
+import Greeting from './Greeting';
 
 
 class Content extends Component {
@@ -16,6 +17,11 @@ class Content extends Component {
           <nav className="content-menu">
 
             <ul>
+              <li>
+                <Link to="/">
+                  Greeting
+                </Link>
+              </li>
               <li>
                 <Link to="/skills">
                   Skills
@@ -32,6 +38,11 @@ class Content extends Component {
 
           <section className="content">
 
+            <Route
+              exact
+              path="/"
+              component={Greeting}
+            />
             <Route
               path="/skills"
               component={Skills}
