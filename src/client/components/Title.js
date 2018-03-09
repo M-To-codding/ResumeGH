@@ -2,9 +2,16 @@ import React, {Component} from 'react';
 
 class Title extends Component {
   render() {
+   let title;
+    if (this.props.location.pathname === '/'){
+      title = 'Greeting';
+    } else {
+      title = this.props.location.pathname.replace('/', ' ').trim()
+    }
+
     return (
       <h3 className="title">
-        {this.props.location.pathname.replace('/', ' ').trim()}
+        {title}
       </h3>
     )
   }
