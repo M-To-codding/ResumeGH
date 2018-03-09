@@ -70,7 +70,7 @@ p {
     margin: 0;
 }
 
-input, textarea {
+input, textarea, .contact-form .btn {
     border: none;
     box-shadow: 0 0 11px black;
 }
@@ -335,9 +335,12 @@ input, textarea {
 }
 
 .contact-form .btn {
+    display: block;
+    text-align: center;
     width: 238px;
     height: 53px;
     margin:auto;
+   line-height: 50px;
     background: transparent;
     cursor: pointer;
     color: #fff;
