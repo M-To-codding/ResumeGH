@@ -4,7 +4,7 @@ const express = require('express'),
   main = require('./controllers/index');
 
 
-app.listen(8080);
+app.listen(process.env.PORT || 8080);
 
 app.use(bodyParser.json());
 
