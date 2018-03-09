@@ -25,6 +25,10 @@ class Footer extends Component {
       console.log(data);
     })
 
+    event.target.name.value = '';
+    event.target.email.value = '';
+    event.target.message.value = '';
+
   }
 
   render() {
