@@ -20,7 +20,7 @@ class Header extends Component {
 
               <li className="nav-item">
                 <AnchorLink href="#content" id="content-anchor" className="anchor">
-                  About
+                  Info
                 </AnchorLink>
               </li>
 
@@ -37,14 +37,11 @@ class Header extends Component {
             <div className="text-content">
 
               <h1 className="title">
-                Lorem ipsum dolor sit amet
+                Hello, my name is Marina!
               </h1>
 
               <p className="subtitle">
-                Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet
+                Welcome to my resume site.
               </p>
 
             </div>
