@@ -9,7 +9,7 @@ import {createStore} from 'redux';
 import Skills from './Skills';
 import Resume from './Resume';
 import Title from './Title';
-import Greeting from './Greeting';
+import About from './About';
 import routing from './../reducers/routing';
 
 
@@ -31,7 +31,7 @@ class Content extends Component {
               <ul>
                 <li>
                   <Link to="/">
-                    Greeting
+                    About
                   </Link>
                 </li>
                 <li>
@@ -53,7 +53,7 @@ class Content extends Component {
               <Route
                 exact
                 path="/"
-                component={Greeting}
+                component={About}
               />
               <Route
                 path="/skills"

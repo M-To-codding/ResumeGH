@@ -4,7 +4,7 @@ class Title extends Component {
   render() {
    let title;
     if (this.props.location.pathname === '/'){
-      title = 'Greeting';
+      title = 'About';
     } else {
       title = this.props.location.pathname.replace('/', ' ').trim()
     }
