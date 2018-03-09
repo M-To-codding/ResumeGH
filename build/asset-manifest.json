@@ -1,6 +1,24 @@
 {
-  "main.css": "static/css/main.65027555.css",
-  "main.css.map": "static/css/main.65027555.css.map",
-  "main.js": "static/js/main.fb325669.js",
-  "main.js.map": "static/js/main.fb325669.js.map"
+  "main.css": "static/css/main.31c26e6d.css",
+  "main.css.map": "static/css/main.31c26e6d.css.map",
+  "main.js": "static/js/main.ffdf89ce.js",
+  "main.js.map": "static/js/main.ffdf89ce.js.map",
+  "static/media/border-for-photo.png": "static/media/border-for-photo.0c74c6a3.png",
+  "static/media/header-bg.png": "static/media/header-bg.e055a73b.png",
+  "static/media/myriad-pro.eot": "static/media/myriad-pro.6f78acd6.eot",
+  "static/media/myriad-pro.svg": "static/media/myriad-pro.84303634.svg",
+  "static/media/myriad-pro.ttf": "static/media/myriad-pro.f9036d7b.ttf",
+  "static/media/myriad-pro.woff": "static/media/myriad-pro.8c97410c.woff",
+  "static/media/myriad-pro.woff2": "static/media/myriad-pro.621fec6e.woff2",
+  "static/media/photo.jpg": "static/media/photo.80b2b3be.jpg",
+  "static/media/segoe-ui-light.eot": "static/media/segoe-ui-light.b32f307d.eot",
+  "static/media/segoe-ui-light.svg": "static/media/segoe-ui-light.dec8e948.svg",
+  "static/media/segoe-ui-light.ttf": "static/media/segoe-ui-light.2317f2a9.ttf",
+  "static/media/segoe-ui-light.woff": "static/media/segoe-ui-light.ae571f90.woff",
+  "static/media/segoe-ui-light.woff2": "static/media/segoe-ui-light.631d266f.woff2",
+  "static/media/segoe-ui.eot": "static/media/segoe-ui.760e92ad.eot",
+  "static/media/segoe-ui.svg": "static/media/segoe-ui.b6e9c848.svg",
+  "static/media/segoe-ui.ttf": "static/media/segoe-ui.81f7e5cf.ttf",
+  "static/media/segoe-ui.woff": "static/media/segoe-ui.5927ab82.woff",
+  "static/media/segoe-ui.woff2": "static/media/segoe-ui.0364198a.woff2"
 }
